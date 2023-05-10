@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  languagetool:
+    image: erikvl87/languagetool
+    container_name: languagetool
+    hostname: languagetool
+    restart: always
+    user: 65534:65534
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    ports:
+      - '127.0.0.1:8010:8010'
+    environment:
+      - langtool_languageModel=/ngrams
+      - Java_Xms=2g
+      - Java_Xmx=4g
+      - timeoutRequestLimit=120
+    volumes:
+      - ./languagetool/ngrams/data:/ngrams
