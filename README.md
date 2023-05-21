@@ -21,3 +21,11 @@ If you use my public api instance, it has a ratelimit to prevent abuse. All ngra
 5. ```docker-compose up -d```
 
 ```http://localhost:8010```
+
+### Sources
+
+[Self-host LanguageTool Official Guide](https://dev.languagetool.org/http-server) + [Add Ngrams Support](https://dev.languagetool.org/finding-errors-using-n-gram-data.html)
+
+[Erikv187's LanguageTool Docker Version](https://github.com/Erikvl87/docker-languagetool)
+
+[Silvio's LanguageTool Docker Version](https://github.com/silvio/docker-languagetool)
