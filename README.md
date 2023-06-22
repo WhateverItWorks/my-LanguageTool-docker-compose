@@ -4,7 +4,7 @@ LanguageTool Is a Open-Source Best Free Alternative to Grammarly for Multiple La
 | Domain | CDN/DDoS Protection | Provider | Country |
 | -- | -- | -- | -- |
 | [langapi.whateveritworks.org](https://langapi.whateveritworks.org/) | Cloudflare | Hetzner | Germany (Official)
-If you use my public api instance, it has a ratelimit to prevent abuse. All ngrams now supported on my api. :)
+If you use my public api instance, it has a ratelimit/return vistor ips to prevent abuse. All ngrams now supported on my api. :)
 
 ## Usage:
 
@@ -12,15 +12,23 @@ If you use my public api instance, it has a ratelimit to prevent abuse. All ngra
 
 2. Get [Cloudflare](https://cloudflare.com) it's carbon renewal and you help save the world.
 
-2. ```apt install git```
+3. ```apt install git```
 
-3. ```git clone https://github.com/WhateverItWorks/my-LanguageTool-docker-compose.git lang```
+4. ```git clone https://github.com/WhateverItWorks/my-LanguageTool-docker-compose.git lang```
 
-4. ```nano docker-compose.yml```
+5. ```nano docker-compose.yml```
 
-5. ```docker-compose up -d```
+6. ```docker-compose up -d```
 
 ```http://localhost:8010```
+
+### Self-Host Custom URL Support (Extensions)
+
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/languagetool/)
+- [Chrome](https://chrome.google.com/webstore/detail/grammar-checker-paraphras/oldceeleldhonbafppcapldpdifcinji?utm_source=lt-homepage)
+
+### Self-Host Custom URL Support (Mobile)
+iOS & Android has yet to have custom self-host url support.
 
 ### Sources
 
