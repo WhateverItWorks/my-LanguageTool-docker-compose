@@ -14,7 +14,7 @@ If you use my public api instance, it has a ratelimit/return vistor ips to preve
 
 3. ```apt install git```
 
-4. ```git clone https://github.com/WhateverItWorks/my-LanguageTool-docker-compose.git lang```
+4. ```git clone https://github.com/WhateverItWorks/My-LanguageTool-Docker-Compose.git lang```
 
 5. ```nano docker-compose.yml```
 
